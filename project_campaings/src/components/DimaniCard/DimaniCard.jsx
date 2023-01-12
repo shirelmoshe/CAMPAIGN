@@ -10,7 +10,7 @@ export const DimaniCard = ({
   handleMoreProductInfo,
 }) => {
   return (
-    <div class="card">
+    <div class="card" key={userId}>
       <div class="card-body">
         <h5 class="card-title">{hashtag}</h5>
         <p class="card-text">{associationName}</p>

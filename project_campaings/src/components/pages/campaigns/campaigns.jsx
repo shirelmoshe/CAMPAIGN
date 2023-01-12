@@ -27,6 +27,7 @@ export const Campaigns = () => {
           const { associationName, email, uri, usreId, hashtag } = response;
           return (
             <DimaniCard
+              key={usreId}
               associationName={associationName}
               email={email}
               uri={uri}

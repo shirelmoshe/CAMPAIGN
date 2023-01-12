@@ -1,30 +1,23 @@
 import React from "react";
-import "./companyOwnerUser.css";
 
-export const CompanyOwnerUser = ({
+export const socialActivist = ({
   email,
   userId,
   cellphoneNumber,
   companyName,
-  numRowe,
+  userName,
 }) => {
   return (
     <div class="card">
       <img src="..." class="card-img-top" alt="..." />
       <div class="card-body">
-        <h5 class="card-title">Card title</h5>
+        <h5 class="card-title">userName</h5>
       </div>
       <ul class="list-group list-group-flush">
         <li class="list-group-item">{email}</li>-{" "}
         <li class="list-group-item">{cellphoneNumber}</li>
         <li class="list-group-item">{companyName}</li>
-        <li class="list-group-item">{numRowe}</li>
       </ul>
-      <div class="card-body">
-        <a href="/donation" class="card-link">
-          Card link
-        </a>
-      </div>
     </div>
   );
 };

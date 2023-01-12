@@ -9,12 +9,12 @@ export const Navbar = () => {
         <div className="navbar-container">
           <ul className="navbar_menu">
             <li className="navbar_item">
-              <Link to="/Campaigns " className="navbar_links">
+              <Link to="/ " className="navbar_links">
                 Company Owner User
               </Link>
             </li>
             <li className="navbar_item">
-              <Link to="/donation " className="navbar_links">
+              <Link to="/Sales" className="navbar_links">
                 donation
               </Link>
             </li>
@@ -22,6 +22,11 @@ export const Navbar = () => {
             <li className="navbar_item">
               <Link to="/creatingCampaign " className="navbar_links">
                 Creating Campaign
+              </Link>
+            </li>
+            <li className="navbar_item">
+              <Link to="/Products " className="navbar_links">
+                Products
               </Link>
             </li>
           </ul>

@@ -4,4 +4,14 @@
   padding: 20px;
   display: flex;
   flex-direction: column-reverse;
+  color: #000b0b;
+  margin: 20px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  border-style: outset;
+  display: block;
+}
+.card-body {
+  background-color: rgb(255, 255, 255);
+  margin: 5px;
+  text-align: center;
 }
